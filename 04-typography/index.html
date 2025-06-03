@@ -4,14 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Edu+QLD+Hand:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
+        // theme: {
+        //   fontFamily: {
+        //     sans: ["ui-sans-serif", "system-ui"],
+        //     serif: ["ui-serif", "Georgia"],
+        //     mono: ["ui-monospace", "SFMono-Regular"],
+        //   },
+        // },
         theme: {
           fontFamily: {
             sans: ["ui-sans-serif", "system-ui"],
-            sans: ["ui-serif", "Georgia"],
-            sans: ["ui-monospace", "SFMono-Regular"],
+            serif: ["ui-serif", "Alumni Sans SC"],
+            mono: ["ui-monospace", "SFMono-Regular"],
           },
         },
       };
@@ -21,7 +34,7 @@
   <body>
     <!-- Font Family -->
     <div class="font-sans">Tailwind is awesome</div>
-    <div class="font-serif">Tailwind is awesome</div>
+    <div class="font-serif">Tailwind is awesome (Added font)</div>
     <div class="font-mono">Tailwind is awesome</div>
     <!-- Font Size -->
 
